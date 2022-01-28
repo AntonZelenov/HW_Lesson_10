@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "pt_sans", sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+/*body*/
+
+.container_relative {
+  position: relative;
+  background-color: rgb(193, 241, 187);
+  max-width: 1920px;
+  width: 100%;
+  padding-bottom: 100vh;
+}
+
+/*header*/
+
+.container_flex {
+  /* margin: 0 auto; */
+  box-sizing: border-box;
+  background-color: darkgoldenrod;
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 82px;
+  padding: 12px 36px 0 44px;
+  position: fixed;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-list li {
+  display: inline-block;
+}
+
+.nav-list a {
+  text-decoration: none;
+  font-family: "roboto";
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.lang {
+  padding-right: 42px;
+}
+
+.lang a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.04em;
+}
+
+.logo_flex {
+  max-width: 243px;
+  width: 100%;
+}
+
+/*aside_part*/
+
+.container_aside {
+  background-color: darksalmon;
+  display: block;
+  position: sticky;
+  max-width: 1920px;
+  width: 100%;
+  padding-top: 10px;
+
+  top: 120px;
+  z-index: 0;
+}
+
+.aside_list {
+  list-style: none;
+}
+
+.aside_list li {
+  border-bottom: 1px solid black;
+}
+
+/*pattern*/
+
+.container_pattern {
+  max-width: 1920px;
+  width: 100%;
+  position: sticky;
+  top: 261px;
+  z-index: 1;
+  transform: translate(1270px, -261px);
+}
+
+.pattern_holder {
+  max-width: 1920px;
+  width: 100%;
+}
+
+/*main_part*/
+
+.main_text {
+}
+
+.container_main_text {
+  background-color: blueviolet;
+  box-sizing: border-box;
+  max-width: 1160px;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 0;
+  transform: translate(720px, -1120px);
+  z-index: 2;
+}
+
+.main_list {
+  list-style: none;
+  padding: 0;
+}
+
+.main_text h2 {
+  margin-bottom: 70px;
+  text-transform: uppercase;
+  font-family: "roboto", sans-serif;
+  font-weight: 900;
+}
+
+.main_paragraph {
+  margin-bottom: 120px;
+}
+
+.index {
+  vertical-align: super;
+  font-size: 24px;
+}
+
+.main_fundamentals {
+  font-weight: 700;
+}
+
+.main_tags {
+  background-color: rgb(223, 213, 213);
+}
